@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 import { FaLinkedin, FaGithub, FaEnvelope, FaWhatsapp } from "react-icons/fa"
+import { Link } from 'react-scroll';
 
 const Navbar = () => {
     const [nav, setNav] = useState(false);
@@ -11,13 +12,33 @@ const Navbar = () => {
     return (
         <div className='fixed w-full h-20 flex justify-between items-center px-4'>
             {/* Logo */}
-            <h1 className='text-3xl font-semibold text-[#F25F4C]'>MF ...</h1>
+            <h1 className='text-3xl font-semibold text-[#F25F4C] cursor-pointer'>
+                <Link to='about' smooth={true} duration={500}>
+                    MF ...
+                </Link>
+            </h1>
             {/* Menu */}
             <ul className='hidden md:flex text-[14px] text-[#F25F4C]'>
-                <li className='p-5 cursor-pointer'>About</li>
-                <li className='p-5 cursor-pointer'>Skills</li>
-                <li className='p-5 cursor-pointer'>Experiences</li>
-                <li className='p-5 cursor-pointer'>Contact me</li>
+                <li className='p-5 cursor-pointer'>
+                    <Link to='about' smooth={true} duration={500}>
+                        About
+                    </Link>
+                </li>
+                <li className='p-5 cursor-pointer'>
+                    <Link to='skills' smooth={true} duration={500}>
+                        Skills
+                    </Link>
+                </li>
+                <li className='p-5 cursor-pointer'>
+                    <Link to='experiences' smooth={true} duration={500}>
+                        Experiences
+                    </Link>
+                </li>
+                <li className='p-5 cursor-pointer'>
+                    <Link to='contact' smooth={true} duration={500}>
+                        Contact
+                    </Link>
+                </li>
             </ul>
             {/*Condition*/}
             <div onClick={handleNav} className='md:hidden z-10'>
@@ -37,22 +58,22 @@ const Navbar = () => {
             <div className='hidden lg:flex fixed flex-col top-[35%] left-0'>
                 <ul className=''>
                     <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-120px] hover:ml-2 duration-300'>
-                        <a className='flex justify-between items-center w-full text-gray-600 font-semibold' href="">
+                        <a className='flex justify-between items-center w-full text-gray-600 font-semibold' href="https://www.linkedin.com/in/mbola-fanantenana-ramanandraibe-542495205">
                             LinkedIn <FaLinkedin size={30} color='blue' />
                         </a>
                     </li>
                     <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-120px] hover:ml-2 duration-300'>
-                        <a className='flex justify-between items-center w-full text-gray-600 font-semibold' href="" >
+                        <a className='flex justify-between items-center w-full text-gray-600 font-semibold' href="https://github.com/Mbola-Fanantenana" >
                             Github <FaGithub size={30} color='#151515' />
                         </a>
                     </li>
                     <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-120px] hover:ml-2 duration-300'>
-                        <a className='flex justify-between items-center w-full text-gray-600 font-semibold' href="">
+                        <a className='flex justify-between items-center w-full text-gray-600 font-semibold' href="mailto:mbola.ram26@gmail.com">
                             Email <FaEnvelope size={30} />
                         </a>
                     </li>
                     <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-120px] hover:ml-2 duration-300'>
-                        <a className='flex justify-between items-center w-full text-gray-600 font-semibold' href="">
+                        <a className='flex justify-between items-center w-full text-gray-600 font-semibold' href="https://wa.me/+261345589494">
                             Whatsapp <FaWhatsapp size={30} color='green' />
                         </a>
                     </li>
