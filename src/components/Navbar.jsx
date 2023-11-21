@@ -47,10 +47,26 @@ const Navbar = () => {
             {/*Mobile menu*/}
             <div className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen border-r-[#F25F4C] bg-[#f5f5f5] flex flex-col justify-center items-center ease-in-out duration-500'}>
                 <ul className='pt-20 uppercase text-gray-600 font-medium p-4'>
-                    <li className='py-6 text-2xl sm:text-4xl border-b-2 border-[#F25F4C] cursor-pointer'>About</li>
-                    <li className='py-6 text-2xl sm:text-4xl border-b-2 border-[#F25F4C] cursor-pointer'>Skills</li>
-                    <li className='py-6 text-2xl sm:text-4xl border-b-2 border-[#F25F4C] cursor-pointer'>Experiences</li>
-                    <li className='py-6 text-2xl sm:text-4xl border-b-2 border-[#F25F4C] cursor-pointer'>Contact me</li>
+                    <li className='py-6 text-2xl sm:text-4xl border-b-2 border-[#F25F4C] cursor-pointer'>
+                        <Link to='about' smooth={true} duration={500} onClick={handleNav}>
+                            About
+                        </Link>
+                    </li>
+                    <li className='py-6 text-2xl sm:text-4xl border-b-2 border-[#F25F4C] cursor-pointer'>
+                        <Link to='skills' smooth={true} duration={500} onClick={handleNav}>
+                            Skills
+                        </Link>
+                    </li>
+                    <li className='py-6 text-2xl sm:text-4xl border-b-2 border-[#F25F4C] cursor-pointer'>
+                        <Link to='experiences' smooth={true} duration={500} onClick={handleNav}>
+                            Experiences
+                        </Link>
+                    </li>
+                    <li className='py-6 text-2xl sm:text-4xl border-b-2 border-[#F25F4C] cursor-pointer'>
+                        <Link to='contact' smooth={true} duration={500} onClick={handleNav}>
+                            Contact
+                        </Link>
+                    </li>
                 </ul>
             </div>
 
