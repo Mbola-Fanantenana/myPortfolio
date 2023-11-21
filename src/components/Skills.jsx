@@ -77,10 +77,12 @@ const Skills = () => {
                         <img className='w-20 pt-4 mx-auto cursor-pointer' src={Git} alt="Git icon" />
                         <p className='my-4 text-gray-600 font-semibold'>GIT</p>
                     </div>
+                    {/*
                     <div className='shadow-md  hover:scale-110 duration-500'>
                         <img className='w-20 pt-4 mx-auto cursor-pointer' src={Docker} alt="Docker icon" />
                         <p className='my-4 text-gray-600 font-semibold'>DOCKER</p>
                     </div>
+                    */}
                     <div className='shadow-md  hover:scale-110 duration-500'>
                         <img className='w-20 pt-4 mx-auto cursor-pointer' src={Figma} alt="Figma icon" />
                         <p className='my-4 text-gray-600 font-semibold'>FIGMA</p>
