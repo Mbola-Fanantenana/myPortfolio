@@ -8,7 +8,7 @@ function Contact() {
                 <p className='text-2xl sm:text-4xl text-gray-600 font-semibold pb-2'>Contact me</p>
                 <div className='w-10 sm:w-20 h-[4px] bg-gradient-to-r from-[#F25F4C] to-indigo-600'></div>
                 <p className='py-4 text-[14px] text-gray-600'>Submit the form bellow |  
-                <a href="/CV.pdf" download className='text-[14px] text-[#F25F4C] ml-1 mt-4'>
+                <a href="/cv.pdf" download className='text-[14px] text-[#F25F4C] ml-1 mt-4'>
                     Download my CV here
                 </a></p>
             </div>
