@@ -1,5 +1,4 @@
 import React from 'react'
-import Bootstrap from '../assets/bootstrap.png'
 import Html from '../assets/html.png'
 import Css from '../assets/css.png'
 import Javascript from '../assets/js.png'
@@ -13,7 +12,7 @@ import Postgresql from '../assets/postgresql.png'
 import Git from '../assets/gitt.png'
 import Tailwind from '../assets/tailwind.png'
 import Figma from '../assets/figma.png'
-import VirtualBox from '../assets/virtualbox.png'
+
 
 
 const Skills = () => {
@@ -44,10 +43,6 @@ const Skills = () => {
                     <div className='duration-500 shadow-md hover:scale-110'>
                         <img className='w-20 pt-4 mx-auto cursor-pointer' src={ReactJS} alt="ReactJS icon" />
                         <p className='my-4 font-semibold text-gray-600'>REACT JS</p>
-                    </div>
-                    <div className='duration-500 shadow-md hover:scale-110'>
-                        <img className='w-20 pt-6 mx-auto cursor-pointer' src={Bootstrap} alt="Bootstrap icon" />
-                        <p className='my-4 font-semibold text-gray-600'>BOOTSTRAP</p>
                     </div>
                     <div className='duration-500 shadow-md hover:scale-110'>
                         <img className='w-20 pt-8 mx-auto cursor-pointer' src={Tailwind} alt="Bootstrap icon" />
@@ -84,10 +79,6 @@ const Skills = () => {
                     <div className='duration-500 shadow-md hover:scale-110'>
                         <img className='w-20 pt-4 mx-auto cursor-pointer' src={Figma} alt="Figma icon" />
                         <p className='my-4 font-semibold text-gray-600'>FIGMA</p>
-                    </div>
-                    <div className='duration-500 shadow-md hover:scale-110'>
-                        <img className='w-20 pt-4 mx-auto cursor-pointer' src={VirtualBox} alt="VirtualBox icon" />
-                        <p className='my-4 font-semibold text-gray-600'>VIRTUALBOX</p>
                     </div>
                 </div>
             </div>
