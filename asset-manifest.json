@@ -1,16 +1,14 @@
 {
   "files": {
     "main.css": "/myPortfolio/static/css/main.6148cfd3.css",
-    "main.js": "/myPortfolio/static/js/main.7cfa95bc.js",
+    "main.js": "/myPortfolio/static/js/main.b30e97b4.js",
     "static/js/787.fb771931.chunk.js": "/myPortfolio/static/js/787.fb771931.chunk.js",
     "static/media/figma.png": "/myPortfolio/static/media/figma.e3eda632293ac2143a26.png",
     "static/media/tailwind.png": "/myPortfolio/static/media/tailwind.3549d9e451d7abb96934.png",
-    "static/media/virtualbox.png": "/myPortfolio/static/media/virtualbox.81e95bc3bfa507222f9e.png",
     "static/media/hibernate.png": "/myPortfolio/static/media/hibernate.5583f495b83fd23d9d01.png",
     "static/media/spring.png": "/myPortfolio/static/media/spring.1493cea40dd5502e5ac7.png",
     "static/media/postgresql.png": "/myPortfolio/static/media/postgresql.41d30ac9e052b399fa3e.png",
     "static/media/css.png": "/myPortfolio/static/media/css.9f33c557b92e4e2e1cc8.png",
-    "static/media/bootstrap.png": "/myPortfolio/static/media/bootstrap.d5210cdeab1bc94309c4.png",
     "static/media/java.png": "/myPortfolio/static/media/java.5d5cffa04d820ba0644c.png",
     "static/media/js.png": "/myPortfolio/static/media/js.cf7522f436d6510da302.png",
     "static/media/nodejs.png": "/myPortfolio/static/media/nodejs.e71346fe0fec16ec5f6e.png",
@@ -22,11 +20,11 @@
     "static/media/gitt.png": "/myPortfolio/static/media/gitt.7d664489ed331806ddc8.png",
     "index.html": "/myPortfolio/index.html",
     "main.6148cfd3.css.map": "/myPortfolio/static/css/main.6148cfd3.css.map",
-    "main.7cfa95bc.js.map": "/myPortfolio/static/js/main.7cfa95bc.js.map",
+    "main.b30e97b4.js.map": "/myPortfolio/static/js/main.b30e97b4.js.map",
     "787.fb771931.chunk.js.map": "/myPortfolio/static/js/787.fb771931.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6148cfd3.css",
-    "static/js/main.7cfa95bc.js"
+    "static/js/main.b30e97b4.js"
   ]
 }
