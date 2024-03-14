@@ -1,9 +1,9 @@
 import React from "react";
-import Navbar from "./components/Navbar";
-import About from "./components/About";
-import Skills from "./components/Skills";
-import Experiences from "./components/Experiences";
-import Contact from "./components/Contact";
+import Navbar from "./pages/Navbar";
+import About from "./pages/About";
+import Skills from "./pages/Skills";
+import Experiences from "./pages/Experiences";
+import Contact from "./pages/Contact";
 
 function App() {
   return (

@@ -1,19 +1,17 @@
 import React from 'react'
-import Html from '../assets/html.png'
-import Css from '../assets/css.png'
-import Javascript from '../assets/js.png'
-import ReactJS from '../assets/react.png'
-import Java from '../assets/java.png'
-import Spring from '../assets/spring.png'
-import Hibernate from '../assets/hibernate.png'
-import Node from '../assets/nodejs.png'
-import Mysql from '../assets/mysql.png'
-import Postgresql from '../assets/postgresql.png'
-import Git from '../assets/gitt.png'
-import Tailwind from '../assets/tailwind.png'
-import Figma from '../assets/figma.png'
-
-
+import Html from '../assets/images/html.png'
+import Css from '../assets/images/css.png'
+import Javascript from '../assets/images/js.png'
+import ReactJS from '../assets/images/react.png'
+import Java from '../assets/images/java.png'
+import Spring from '../assets/images/spring.png'
+import Hibernate from '../assets/images/hibernate.png'
+import Node from '../assets/images/nodejs.png'
+import Mysql from '../assets/images/mysql.png'
+import Postgresql from '../assets/images/postgresql.png'
+import Git from '../assets/images/gitt.png'
+import Tailwind from '../assets/images/tailwind.png'
+import Figma from '../assets/images/figma.png'
 
 const Skills = () => {
   return (
