@@ -18,7 +18,7 @@ const About = () => {
                         the possibilities it offers and to help shape the ever-changing digital world."
                     </p>
                     <div>
-                        <a href='https://drive.google.com/file/d/1bDSqhcYGe36mHPx1TiviPk3I5MTRPROE/view?usp=sharing' target='_blank' rel='noopener noreferrer'>
+                        <a href='https://drive.google.com/file/d/1bDSqhcYGe36mHPx1TiviPk3I5MTRPROE/view?usp=drive_link' target='_blank' rel='noopener noreferrer'>
                             <button className='text-gray-600 font-medium group rounded-tl-lg rounded-br-lg border-2 border-[#F25F4C] hover:border-gray-600 px-6 py-2 sm:py-3 my-1 sm:my-2 flex items-center'>
                                 Download resume
                                 <span className='duration-300 group-hover:rotate-90'>
