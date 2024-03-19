@@ -12,6 +12,7 @@ import Postgresql from '../assets/images/postgresql.png'
 import Git from '../assets/images/gitt.png'
 import Tailwind from '../assets/images/tailwind.png'
 import Figma from '../assets/images/figma.png'
+import Express from '../assets/images/express-svgrepo-com.svg'
 
 const Skills = () => {
   return (
@@ -45,6 +46,10 @@ const Skills = () => {
                     <div className='duration-500 shadow-md hover:scale-110'>
                         <img className='w-20 pt-8 mx-auto cursor-pointer' src={Tailwind} alt="Bootstrap icon" />
                         <p className='my-4 mt-8 font-semibold text-gray-600'>TAILWIND</p>
+                    </div>
+                    <div className='duration-500 shadow-md hover:scale-110'>
+                        <img className='w-20 pt-8 mx-auto cursor-pointer' src={Express} alt="Bootstrap icon" />
+                        <p className='my-4 mt-1 font-semibold text-gray-600'>Express JS</p>
                     </div>
                     <div className='duration-500 shadow-md hover:scale-110'>
                         <img className='w-20 pt-4 mx-auto cursor-pointer' src={Java} alt="Java icon" />
