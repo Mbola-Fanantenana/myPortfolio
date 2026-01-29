@@ -74,7 +74,7 @@ const Navbar = () => {
             <div className='hidden lg:flex fixed flex-col top-[35%] left-0'>
                 <ul className=''>
                     <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-120px] hover:ml-2 duration-300'>
-                        <a className='flex justify-between items-center w-full text-gray-600 font-semibold' href="https://www.linkedin.com/in/mbola-fanantenana-ramanandraibe-542495205">
+                        <a className='flex justify-between items-center w-full text-gray-600 font-semibold' href="https://www.linkedin.com/in/mbola-fanantenana">
                             LinkedIn <FaLinkedin size={30} color='blue' />
                         </a>
                     </li>
@@ -84,12 +84,12 @@ const Navbar = () => {
                         </a>
                     </li>
                     <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-120px] hover:ml-2 duration-300'>
-                        <a className='flex justify-between items-center w-full text-gray-600 font-semibold' href="mailto:mbola.ram26@gmail.com">
+                        <a className='flex justify-between items-center w-full text-gray-600 font-semibold' href="mailto:mbolarama.it@gmail.com">
                             Email <FaEnvelope size={30} />
                         </a>
                     </li>
                     <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-120px] hover:ml-2 duration-300'>
-                        <a className='flex justify-between items-center w-full text-gray-600 font-semibold' href="https://wa.me/+261345589494">
+                        <a className='flex justify-between items-center w-full text-gray-600 font-semibold' href="https://wa.me/+261320707649">
                             Whatsapp <FaWhatsapp size={30} color='green' />
                         </a>
                     </li>

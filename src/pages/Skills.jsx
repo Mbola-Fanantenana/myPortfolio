@@ -1,18 +1,17 @@
-import React from 'react'
 import Html from '../assets/images/html.png'
 import Css from '../assets/images/css.png'
-import Javascript from '../assets/images/js.png'
-import ReactJS from '../assets/images/react.png'
 import Java from '../assets/images/java.png'
-import Spring from '../assets/images/spring.png'
-import Hibernate from '../assets/images/hibernate.png'
 import Node from '../assets/images/nodejs.png'
 import Mysql from '../assets/images/mysql.png'
 import Postgresql from '../assets/images/postgresql.png'
 import Git from '../assets/images/gitt.png'
 import Tailwind from '../assets/images/tailwind.png'
 import Figma from '../assets/images/figma.png'
-import Express from '../assets/images/express-svgrepo-com.svg'
+import Angular from '../assets/images/angular.png'
+import Vertx from '../assets/images/vertx.png'
+import Quarkus from '../assets/images/quarkus.png'
+import Kafka from '../assets/images/kafka.png'
+import SonarQube from '../assets/images/sonarqube.png'
 
 const Skills = () => {
   return (
@@ -21,8 +20,10 @@ const Skills = () => {
             {/* Container */}
             <div className='md:max-w-[900px] sm:max-w-[600px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
                 <div className=''>
-                    <p className='pb-2 text-2xl font-semibold text-gray-600 sm:text-4xl'>Skills</p>
-                    <div className='w-10 sm:w-20 h-[4px] bg-gradient-to-r from-[#F25F4C] to-indigo-600'></div>
+                    <div className='mb-8 text-center'>
+                        <p className='text-3xl font-semibold text-gray-700'>Skills</p>
+                        <div className='w-16 h-1 mx-auto mt-2 bg-gradient-to-r from-gray-400 to-gray-600 rounded'></div>
+                    </div>
                     <p className='py-4 text-[14px] text-gray-600'>There are some technologies I've worked with :</p>
                 </div>
 
@@ -36,36 +37,39 @@ const Skills = () => {
                         <p className='my-4 font-semibold text-gray-600'>CSS 3</p>
                     </div>
                     <div className='duration-500 shadow-md hover:scale-110'>
-                        <img className='w-20 pt-4 mx-auto cursor-pointer' src={Javascript} alt="Javascript icon" />
-                        <p className='my-4 font-semibold text-gray-600'>JAVASCRIPT</p>
-                    </div>
-                    <div className='duration-500 shadow-md hover:scale-110'>
-                        <img className='w-20 pt-4 mx-auto cursor-pointer' src={ReactJS} alt="ReactJS icon" />
-                        <p className='my-4 font-semibold text-gray-600'>REACT JS</p>
+                        <img className='w-20 pt-4 mx-auto cursor-pointer' src={Angular} alt="Angular icon" />
+                        <p className='my-4 font-semibold text-gray-600'>Angular</p>
                     </div>
                     <div className='duration-500 shadow-md hover:scale-110'>
                         <img className='w-20 pt-8 mx-auto cursor-pointer' src={Tailwind} alt="Bootstrap icon" />
                         <p className='my-4 mt-8 font-semibold text-gray-600'>TAILWIND</p>
                     </div>
                     <div className='duration-500 shadow-md hover:scale-110'>
-                        <img className='w-20 pt-8 mx-auto cursor-pointer' src={Express} alt="Bootstrap icon" />
-                        <p className='my-4 mt-1 font-semibold text-gray-600'>Express JS</p>
+                        <img className='w-20 pt-4 mx-auto cursor-pointer' src={Node} alt="Node icon" />
+                        <p className='my-4 font-semibold text-gray-600'>NODE</p>
+                    </div>
+                    <div className='duration-500 shadow-md hover:scale-110'>
+                        <img className='w-20 pt-8 mx-auto cursor-pointer' src={Vertx} alt="Vertx icon" />
+                        <p className='my-4 mt-1 font-semibold text-gray-600'>Vert.x</p>
                     </div>
                     <div className='duration-500 shadow-md hover:scale-110'>
                         <img className='w-20 pt-4 mx-auto cursor-pointer' src={Java} alt="Java icon" />
                         <p className='my-4 font-semibold text-gray-600'>JAVA</p>
                     </div>
                     <div className='duration-500 shadow-md hover:scale-110'>
-                        <img className='w-20 pt-6 mx-auto cursor-pointer' src={Spring} alt="Spring icon" />
-                        <p className='my-4 font-semibold text-gray-600'>SPRING</p>
+                        <img className='w-20 pt-6 mx-auto cursor-pointer' src={Quarkus} alt="Quarkus icon" />
+                        <p className='my-4 font-semibold text-gray-600'>QUARKUS</p>
                     </div>
-                    <div className='duration-500 shadow-md hover:scale-110'>
-                        <img className='w-20 pt-8 mx-auto cursor-pointer' src={Hibernate} alt="Hibernate icon" />
-                        <p className='my-4 mt-8 font-semibold text-gray-600'>HIBERNATE</p>
+                        <div className='duration-500 shadow-md hover:scale-110'>
+                        <img className='w-20 pt-8 mx-auto cursor-pointer' src={Kafka} alt="Kafka icon" />
+                        <p className='my-4 mt-8 font-semibold text-gray-600'>KAFKA</p>
                     </div>
-                    <div className='duration-500 shadow-md hover:scale-110'>
-                        <img className='w-20 pt-4 mx-auto cursor-pointer' src={Node} alt="Node icon" />
-                        <p className='my-4 font-semibold text-gray-600'>NODE</p>
+                    <div className="duration-500 shadow-md hover:scale-110 flex items-center justify-center">
+                        <img
+                            className="w-48 sm:w-52 md:w-60 cursor-pointer"
+                            src={SonarQube}
+                            alt="SonarQube icon"
+                        />
                     </div>
                     <div className='duration-500 shadow-md hover:scale-110'>
                         <img className='w-20 pt-8 mx-auto cursor-pointer' src={Mysql} alt="Mysql icon" />
