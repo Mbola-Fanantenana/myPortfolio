@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/myPortfolio/static/css/main.aa387675.css",
-    "main.js": "/myPortfolio/static/js/main.957f1cbb.js",
-    "static/js/453.676b9ed8.chunk.js": "/myPortfolio/static/js/453.676b9ed8.chunk.js",
-    "static/media/kafka.png": "/myPortfolio/static/media/kafka.9d756e8962b5208dbdf3.png",
-    "static/media/figma.png": "/myPortfolio/static/media/figma.e3eda632293ac2143a26.png",
-    "static/media/angular.png": "/myPortfolio/static/media/angular.02feacdc4198eb41901f.png",
-    "static/media/tailwind.png": "/myPortfolio/static/media/tailwind.3549d9e451d7abb96934.png",
-    "static/media/quarkus.png": "/myPortfolio/static/media/quarkus.302be71fca85b639c314.png",
-    "static/media/postgresql.png": "/myPortfolio/static/media/postgresql.41d30ac9e052b399fa3e.png",
-    "static/media/css.png": "/myPortfolio/static/media/css.9f33c557b92e4e2e1cc8.png",
-    "static/media/sonarqube.png": "/myPortfolio/static/media/sonarqube.b1de72d5a11b4eb79123.png",
-    "static/media/java.png": "/myPortfolio/static/media/java.5d5cffa04d820ba0644c.png",
-    "static/media/vertx.png": "/myPortfolio/static/media/vertx.cfce856f174a887966b2.png",
-    "static/media/nodejs.png": "/myPortfolio/static/media/nodejs.e71346fe0fec16ec5f6e.png",
-    "static/media/mysql.png": "/myPortfolio/static/media/mysql.cdd30395a241a0ad6b9c.png",
-    "static/media/html.png": "/myPortfolio/static/media/html.c77fed674c34630bf6ef.png",
-    "static/media/gitt.png": "/myPortfolio/static/media/gitt.7d664489ed331806ddc8.png",
-    "index.html": "/myPortfolio/index.html",
-    "main.aa387675.css.map": "/myPortfolio/static/css/main.aa387675.css.map",
-    "main.957f1cbb.js.map": "/myPortfolio/static/js/main.957f1cbb.js.map",
-    "453.676b9ed8.chunk.js.map": "/myPortfolio/static/js/453.676b9ed8.chunk.js.map"
+    "main.css": "/static/css/main.aa387675.css",
+    "main.js": "/static/js/main.c203cf2d.js",
+    "static/js/453.676b9ed8.chunk.js": "/static/js/453.676b9ed8.chunk.js",
+    "static/media/kafka.png": "/static/media/kafka.9d756e8962b5208dbdf3.png",
+    "static/media/figma.png": "/static/media/figma.e3eda632293ac2143a26.png",
+    "static/media/angular.png": "/static/media/angular.02feacdc4198eb41901f.png",
+    "static/media/tailwind.png": "/static/media/tailwind.3549d9e451d7abb96934.png",
+    "static/media/quarkus.png": "/static/media/quarkus.302be71fca85b639c314.png",
+    "static/media/postgresql.png": "/static/media/postgresql.41d30ac9e052b399fa3e.png",
+    "static/media/css.png": "/static/media/css.9f33c557b92e4e2e1cc8.png",
+    "static/media/sonarqube.png": "/static/media/sonarqube.b1de72d5a11b4eb79123.png",
+    "static/media/java.png": "/static/media/java.5d5cffa04d820ba0644c.png",
+    "static/media/vertx.png": "/static/media/vertx.cfce856f174a887966b2.png",
+    "static/media/nodejs.png": "/static/media/nodejs.e71346fe0fec16ec5f6e.png",
+    "static/media/mysql.png": "/static/media/mysql.cdd30395a241a0ad6b9c.png",
+    "static/media/html.png": "/static/media/html.c77fed674c34630bf6ef.png",
+    "static/media/gitt.png": "/static/media/gitt.7d664489ed331806ddc8.png",
+    "index.html": "/index.html",
+    "main.aa387675.css.map": "/static/css/main.aa387675.css.map",
+    "main.c203cf2d.js.map": "/static/js/main.c203cf2d.js.map",
+    "453.676b9ed8.chunk.js.map": "/static/js/453.676b9ed8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.aa387675.css",
-    "static/js/main.957f1cbb.js"
+    "static/js/main.c203cf2d.js"
   ]
 }
