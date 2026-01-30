@@ -25,13 +25,18 @@ const Navbar = () => {
                     </Link>
                 </li>
                 <li className='p-5 cursor-pointer'>
+                    <Link to='experiences' smooth={true} duration={500}>
+                        Experiences
+                    </Link>
+                </li>
+                <li className='p-5 cursor-pointer'>
                     <Link to='skills' smooth={true} duration={500}>
                         Skills
                     </Link>
                 </li>
                 <li className='p-5 cursor-pointer'>
-                    <Link to='experiences' smooth={true} duration={500}>
-                        Experiences
+                    <Link to='education' smooth={true} duration={500}>
+                        Education
                     </Link>
                 </li>
                 <li className='p-5 cursor-pointer'>
@@ -53,13 +58,18 @@ const Navbar = () => {
                         </Link>
                     </li>
                     <li className='py-6 text-2xl sm:text-4xl border-b-2 border-[#F25F4C] cursor-pointer'>
+                        <Link to='experiences' smooth={true} duration={500} onClick={handleNav}>
+                            Experiences
+                        </Link>
+                    </li>
+                    <li className='py-6 text-2xl sm:text-4xl border-b-2 border-[#F25F4C] cursor-pointer'>
                         <Link to='skills' smooth={true} duration={500} onClick={handleNav}>
                             Skills
                         </Link>
                     </li>
                     <li className='py-6 text-2xl sm:text-4xl border-b-2 border-[#F25F4C] cursor-pointer'>
-                        <Link to='experiences' smooth={true} duration={500} onClick={handleNav}>
-                            Experiences
+                        <Link to='education' smooth={true} duration={500} onClick={handleNav}>
+                            Education
                         </Link>
                     </li>
                     <li className='py-6 text-2xl sm:text-4xl border-b-2 border-[#F25F4C] cursor-pointer'>
