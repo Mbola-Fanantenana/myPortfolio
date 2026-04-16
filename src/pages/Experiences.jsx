@@ -17,9 +17,20 @@ const Experiences = () => {
           <div className='border border-gray-300 rounded-lg p-4 hover:shadow-md transition-shadow duration-300'>
             <h2 className='text-xl font-semibold text-gray-800 mb-2'>Orange</h2>
             <h3 className='text-md text-gray-600 mb-4'>Junior Software engineer</h3>
-            <p className='text-sm text-gray-600 mb-4'>
-              <span className='font-semibold'>Since July 2024 :</span> Active participation in specification and planning meetings with stakeholders. Development and improvement of existing solutions
-            </p>
+            <ul className='text-sm text-gray-600 mb-4 list-disc pl-5 space-y-2'>
+              <li>
+                <span className='font-semibold'>Infrastructure Modernization:</span> Technical migration of the project from Java 8 to Java 21, including dependency updates and performance optimization.
+              </li>
+              <li>
+                <span className='font-semibold'>Backend & Reactive Development:</span> Design and implementation of complex features using Java, Vert.x, and Quarkus.
+              </li>
+              <li>
+                <span className='font-semibold'>Micro-frontend Architecture:</span> Development and integration of frontend modules with Angular 21 and Native Federation.
+              </li>
+              <li>
+                <span className='font-semibold'>Agility & Collaboration:</span> Active participation in SCRUM cycles, from technical specifications to sprint planning with stakeholders.
+              </li>
+            </ul>
             {/* Compétences */}
             <div className='flex flex-wrap gap-2'>
               {['Java', 'Vert.x', 'Quarkus', 'Angular', 'Kafka', 'SonarQube', 'MySQL, Gitlab, Bitbucket', 'Bamboo', 'Jira'].map((skill) => (

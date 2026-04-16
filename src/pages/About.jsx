@@ -10,12 +10,12 @@ const About = () => {
                 <p className='text-gray-600 text-[14px] sm:text-[16px]'>
                     Hi ! I'm
                     <p className='pb-4 text-2xl font-semibold text-gray-600 sm:text-5xl'>
-                        <Typed strings={[' Mbola Fanantenana', " a Junior developer"]} typeSpeed={80} backSpeed={40} loop />
+                        <Typed strings={[' Mbola Fanantenana', " a Java Software Engineer / Backend & APIs Specialist"]} typeSpeed={80} backSpeed={40} loop />
                     </p>
                     <div className='w-[4rem] sm:w-[8rem] h-[4px] bg-gradient-to-r from-[#F25F4C] to-indigo-600'></div>
                     <p className='text-[16px] sm:text-[16px] py-4 text-gray-600 max-w-[700px] text-justify'>
-                        "Passionate about new technologies, I plunged into the IT field to explore
-                        the possibilities it offers and to help shape the ever-changing digital world."
+                        "Java Software Engineer (Master's degree) with 2 years of experience in the telecommunications industry. Expert in reactive backend architectures
+                        and data flow management. Agile-oriented, I combine technical rigor with the deployment of modern solutions."
                     </p>
                     <div>
                         <a href='https://drive.google.com/file/d/16rjBasLNJVtcBXMRhYUgvUVogYOsDCM2/view?usp=sharing' target='_blank' rel='noopener noreferrer'>
